@@ -1,0 +1,273 @@
+@font-face {
+	font-family: 'iconmonstr';
+	src:url('fonts/iconmonstr.eot');
+	src:url('fonts/iconmonstr.eot?#iefix') format('embedded-opentype'),
+		url('fonts/iconmonstr.woff') format('woff'),
+		url('fonts/iconmonstr.ttf') format('truetype'),
+		url('fonts/iconmonstr.svg#iconmonstr') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'iconmonstr';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="your-class-prefix"] {
+*/
+.iconmonstr-twitter-icon, .iconmonstr-soundcloud-icon, .iconmonstr-pinterest-icon, .iconmonstr-google-plus-icon, .iconmonstr-facebook-icon, .iconmonstr-github-6-icon, .iconmonstr-dribbble-icon, .iconmonstr-deviantart-icon, .iconmonstr-youtube-icon, .iconmonstr-user-14-icon, .iconmonstr-star-icon, .iconmonstr-document-file-2-icon, .iconmonstr-calendar-4-icon, .iconmonstr-clipboard-5-icon, .iconmonstr-computer-3-icon, .iconmonstr-tablet-icon, .iconmonstr-download-10-icon, .iconmonstr-upload-10-icon, .iconmonstr-cloud-3-icon, .iconmonstr-smartphone-4-icon, .iconmonstr-time-9-icon, .iconmonstr-time-6-icon, .iconmonstr-pie-chart-2-icon, .iconmonstr-line-chart-icon, .iconmonstr-livejournal-icon, .iconmonstr-full-folder-icon, .iconmonstr-speech-bubble-13-icon, .iconmonstr-email-2-icon, .iconmonstr-globe-4-icon, .iconmonstr-home-4-icon, .iconmonstr-plus-4-icon, .iconmonstr-check-mark-3-icon, .iconmonstr-x-mark-3-icon, .iconmonstr-undo-4-icon, .iconmonstr-redo-4-icon, .iconmonstr-magnifier-3-icon, .iconmonstr-resize-4-icon, .iconmonstr-refresh-5-icon, .iconmonstr-window-command-icon, .iconmonstr-gear-icon, .iconmonstr-arrow-58-icon, .iconmonstr-rss-icon, .iconmonstr-facebook-like-icon, .iconmonstr-help-2-icon, .iconmonstr-video-5-icon, .iconmonstr-info-5-icon, .iconmonstr-location-4-icon, .iconmonstr-location-3-icon, .iconmonstr-server-4-icon, .iconmonstr-database-icon, .iconmonstr-laptop-4-icon, .iconmonstr-location-5-icon, .iconmonstr-basket-2-icon, .iconmonstr-arrow-32-icon, .iconmonstr-user-icon, .iconmonstr-user-14-icon-1, .iconmonstr-microphone-icon, .iconmonstr-shopping-cart-icon, .iconmonstr-link-2-icon, .iconmonstr-dashboard-3-icon, .iconmonstr-warning-6-icon, .iconmonstr-basket-12-icon, .iconmonstr-inbox-6-icon, .iconmonstr-phone-icon, .iconmonstr-email-icon, .iconmonstr-photo-camera-4-icon, .iconmonstr-check-mark-icon, .iconmonstr-x-mark-icon, .iconmonstr-location-2-icon, .iconmonstr-share-4-icon, .iconmonstr-lock-icon, .iconmonstr-navigation-2-icon, .iconmonstr-shopping-cart-13-icon, .iconmonstr-compass-9-icon, .iconmonstr-window-layout-icon, .iconmonstr-shopping-cart-3-icon, .iconmonstr-favorite-3-icon, .iconmonstr-error-5-icon {
+	font-family: 'iconmonstr';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.iconmonstr-twitter-icon:before {
+	content: "\21";
+}
+.iconmonstr-soundcloud-icon:before {
+	content: "\22";
+}
+.iconmonstr-pinterest-icon:before {
+	content: "\23";
+}
+.iconmonstr-google-plus-icon:before {
+	content: "\24";
+}
+.iconmonstr-facebook-icon:before {
+	content: "\25";
+}
+.iconmonstr-github-6-icon:before {
+	content: "\26";
+}
+.iconmonstr-dribbble-icon:before {
+	content: "\27";
+}
+.iconmonstr-deviantart-icon:before {
+	content: "\28";
+}
+.iconmonstr-youtube-icon:before {
+	content: "\29";
+}
+.iconmonstr-user-14-icon:before {
+	content: "\2a";
+}
+.iconmonstr-star-icon:before {
+	content: "\2b";
+}
+.iconmonstr-document-file-2-icon:before {
+	content: "\2c";
+}
+.iconmonstr-calendar-4-icon:before {
+	content: "\2d";
+}
+.iconmonstr-clipboard-5-icon:before {
+	content: "\2e";
+}
+.iconmonstr-computer-3-icon:before {
+	content: "\2f";
+}
+.iconmonstr-tablet-icon:before {
+	content: "\30";
+}
+.iconmonstr-download-10-icon:before {
+	content: "\31";
+}
+.iconmonstr-upload-10-icon:before {
+	content: "\32";
+}
+.iconmonstr-cloud-3-icon:before {
+	content: "\33";
+}
+.iconmonstr-smartphone-4-icon:before {
+	content: "\34";
+}
+.iconmonstr-time-9-icon:before {
+	content: "\35";
+}
+.iconmonstr-time-6-icon:before {
+	content: "\36";
+}
+.iconmonstr-pie-chart-2-icon:before {
+	content: "\37";
+}
+.iconmonstr-line-chart-icon:before {
+	content: "\38";
+}
+.iconmonstr-livejournal-icon:before {
+	content: "\39";
+}
+.iconmonstr-full-folder-icon:before {
+	content: "\3a";
+}
+.iconmonstr-speech-bubble-13-icon:before {
+	content: "\3b";
+}
+.iconmonstr-email-2-icon:before {
+	content: "\3c";
+}
+.iconmonstr-globe-4-icon:before {
+	content: "\3d";
+}
+.iconmonstr-home-4-icon:before {
+	content: "\3e";
+}
+.iconmonstr-plus-4-icon:before {
+	content: "\3f";
+}
+.iconmonstr-check-mark-3-icon:before {
+	content: "\40";
+}
+.iconmonstr-x-mark-3-icon:before {
+	content: "\41";
+}
+.iconmonstr-undo-4-icon:before {
+	content: "\42";
+}
+.iconmonstr-redo-4-icon:before {
+	content: "\43";
+}
+.iconmonstr-magnifier-3-icon:before {
+	content: "\44";
+}
+.iconmonstr-resize-4-icon:before {
+	content: "\45";
+}
+.iconmonstr-refresh-5-icon:before {
+	content: "\46";
+}
+.iconmonstr-window-command-icon:before {
+	content: "\47";
+}
+.iconmonstr-gear-icon:before {
+	content: "\48";
+}
+.iconmonstr-arrow-58-icon:before {
+	content: "\49";
+}
+.iconmonstr-rss-icon:before {
+	content: "\4a";
+}
+.iconmonstr-facebook-like-icon:before {
+	content: "\4b";
+}
+.iconmonstr-help-2-icon:before {
+	content: "\4c";
+}
+.iconmonstr-video-5-icon:before {
+	content: "\4d";
+}
+.iconmonstr-info-5-icon:before {
+	content: "\4e";
+}
+.iconmonstr-location-4-icon:before {
+	content: "\4f";
+}
+.iconmonstr-location-3-icon:before {
+	content: "\50";
+}
+.iconmonstr-server-4-icon:before {
+	content: "\51";
+}
+.iconmonstr-database-icon:before {
+	content: "\52";
+}
+.iconmonstr-laptop-4-icon:before {
+	content: "\53";
+}
+.iconmonstr-location-5-icon:before {
+	content: "\54";
+}
+.iconmonstr-basket-2-icon:before {
+	content: "\55";
+}
+.iconmonstr-arrow-32-icon:before {
+	content: "\56";
+}
+.iconmonstr-user-icon:before {
+	content: "\57";
+}
+.iconmonstr-user-14-icon-1:before {
+	content: "\58";
+}
+.iconmonstr-microphone-icon:before {
+	content: "\59";
+}
+.iconmonstr-shopping-cart-icon:before {
+	content: "\5a";
+}
+.iconmonstr-link-2-icon:before {
+	content: "\5b";
+}
+.iconmonstr-dashboard-3-icon:before {
+	content: "\5c";
+}
+.iconmonstr-warning-6-icon:before {
+	content: "\5d";
+}
+.iconmonstr-basket-12-icon:before {
+	content: "\5e";
+}
+.iconmonstr-inbox-6-icon:before {
+	content: "\5f";
+}
+.iconmonstr-phone-icon:before {
+	content: "\60";
+}
+.iconmonstr-email-icon:before {
+	content: "\61";
+}
+.iconmonstr-photo-camera-4-icon:before {
+	content: "\62";
+}
+.iconmonstr-check-mark-icon:before {
+	content: "\63";
+}
+.iconmonstr-x-mark-icon:before {
+	content: "\64";
+}
+.iconmonstr-location-2-icon:before {
+	content: "\65";
+}
+.iconmonstr-share-4-icon:before {
+	content: "\66";
+}
+.iconmonstr-lock-icon:before {
+	content: "\67";
+}
+.iconmonstr-navigation-2-icon:before {
+	content: "\68";
+}
+.iconmonstr-shopping-cart-13-icon:before {
+	content: "\69";
+}
+.iconmonstr-compass-9-icon:before {
+	content: "\6a";
+}
+.iconmonstr-window-layout-icon:before {
+	content: "\6b";
+}
+.iconmonstr-shopping-cart-3-icon:before {
+	content: "\6c";
+}
+.iconmonstr-favorite-3-icon:before {
+	content: "\6d";
+}
+.iconmonstr-error-5-icon:before {
+	content: "\6e";
+}

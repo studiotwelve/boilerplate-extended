@@ -1,0 +1,243 @@
+.icon-iconmonstr-twitter-icon,.icon-iconmonstr-soundcloud-icon,.icon-iconmonstr-pinterest-icon,.icon-iconmonstr-google-plus-icon,.icon-iconmonstr-github-6-icon,.icon-iconmonstr-facebook-icon,.icon-iconmonstr-dribbble-icon,.icon-iconmonstr-deviantart-icon,.icon-iconmonstr-youtube-icon,.icon-iconmonstr-user-14-icon,.icon-iconmonstr-smartphone-4-icon,.icon-iconmonstr-cloud-3-icon,.icon-iconmonstr-upload-10-icon,.icon-iconmonstr-download-10-icon,.icon-iconmonstr-tablet-icon,.icon-iconmonstr-computer-3-icon,.icon-iconmonstr-clipboard-5-icon,.icon-iconmonstr-calendar-4-icon,.icon-iconmonstr-document-file-2-icon,.icon-iconmonstr-star-icon,.icon-iconmonstr-time-9-icon,.icon-iconmonstr-time-6-icon,.icon-iconmonstr-pie-chart-2-icon,.icon-iconmonstr-line-chart-icon,.icon-iconmonstr-livejournal-icon,.icon-iconmonstr-full-folder-icon,.icon-iconmonstr-speech-bubble-13-icon,.icon-iconmonstr-email-2-icon,.icon-iconmonstr-globe-4-icon,.icon-iconmonstr-home-4-icon,.icon-iconmonstr-gear-icon,.icon-iconmonstr-window-command-icon,.icon-iconmonstr-refresh-5-icon,.icon-iconmonstr-resize-4-icon,.icon-iconmonstr-magnifier-3-icon,.icon-iconmonstr-redo-4-icon,.icon-iconmonstr-undo-4-icon,.icon-iconmonstr-x-mark-3-icon,.icon-iconmonstr-check-mark-3-icon,.icon-iconmonstr-plus-4-icon,.icon-iconmonstr-arrow-58-icon,.icon-iconmonstr-rss-icon,.icon-iconmonstr-facebook-like-icon,.icon-iconmonstr-user-icon,.icon-iconmonstr-user-14-icon-1,.icon-iconmonstr-phone-icon,.icon-iconmonstr-email-icon,.icon-iconmonstr-photo-camera-4-icon,.icon-iconmonstr-check-mark-icon,.icon-iconmonstr-x-mark-icon,.icon-iconmonstr-video-5-icon,.icon-iconmonstr-info-5-icon,.icon-iconmonstr-help-2-icon,.icon-iconmonstr-arrow-32-icon,.icon-iconmonstr-microphone-icon,.icon-iconmonstr-inbox-6-icon,.icon-iconmonstr-window-layout-icon,.icon-iconmonstr-compass-9-icon,.icon-iconmonstr-navigation-2-icon,.icon-iconmonstr-location-2-icon,.icon-iconmonstr-location-3-icon,.icon-iconmonstr-location-4-icon,.icon-iconmonstr-location-5-icon,.icon-iconmonstr-basket-2-icon,.icon-iconmonstr-shopping-cart-icon,.icon-iconmonstr-basket-12-icon,.icon-iconmonstr-shopping-cart-3-icon,.icon-iconmonstr-shopping-cart-13-icon,.icon-iconmonstr-lock-icon,.icon-iconmonstr-share-4-icon,.icon-iconmonstr-server-4-icon,.icon-iconmonstr-database-icon,.icon-iconmonstr-laptop-4-icon,.icon-iconmonstr-link-2-icon,.icon-iconmonstr-warning-6-icon,.icon-iconmonstr-dashboard-3-icon,.icon-iconmonstr-favorite-3-icon,.icon-iconmonstr-error-5-icon {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url(sprites.png);
+	background-repeat: no-repeat;
+}
+.icon-iconmonstr-twitter-icon {
+	background-position: 0 0;
+}
+.icon-iconmonstr-soundcloud-icon {
+	background-position: -32px 0;
+}
+.icon-iconmonstr-pinterest-icon {
+	background-position: -64px 0;
+}
+.icon-iconmonstr-google-plus-icon {
+	background-position: -96px 0;
+}
+.icon-iconmonstr-github-6-icon {
+	background-position: -128px 0;
+}
+.icon-iconmonstr-facebook-icon {
+	background-position: -160px 0;
+}
+.icon-iconmonstr-dribbble-icon {
+	background-position: -192px 0;
+}
+.icon-iconmonstr-deviantart-icon {
+	background-position: -224px 0;
+}
+.icon-iconmonstr-youtube-icon {
+	background-position: -256px 0;
+}
+.icon-iconmonstr-user-14-icon {
+	background-position: -288px 0;
+}
+.icon-iconmonstr-smartphone-4-icon {
+	background-position: -320px 0;
+}
+.icon-iconmonstr-cloud-3-icon {
+	background-position: -352px 0;
+}
+.icon-iconmonstr-upload-10-icon {
+	background-position: -384px 0;
+}
+.icon-iconmonstr-download-10-icon {
+	background-position: 0 -32px;
+}
+.icon-iconmonstr-tablet-icon {
+	background-position: -32px -32px;
+}
+.icon-iconmonstr-computer-3-icon {
+	background-position: -64px -32px;
+}
+.icon-iconmonstr-clipboard-5-icon {
+	background-position: -96px -32px;
+}
+.icon-iconmonstr-calendar-4-icon {
+	background-position: -128px -32px;
+}
+.icon-iconmonstr-document-file-2-icon {
+	background-position: -160px -32px;
+}
+.icon-iconmonstr-star-icon {
+	background-position: -192px -32px;
+}
+.icon-iconmonstr-time-9-icon {
+	background-position: -224px -32px;
+}
+.icon-iconmonstr-time-6-icon {
+	background-position: -256px -32px;
+}
+.icon-iconmonstr-pie-chart-2-icon {
+	background-position: -288px -32px;
+}
+.icon-iconmonstr-line-chart-icon {
+	background-position: -320px -32px;
+}
+.icon-iconmonstr-livejournal-icon {
+	background-position: -352px -32px;
+}
+.icon-iconmonstr-full-folder-icon {
+	background-position: -384px -32px;
+}
+.icon-iconmonstr-speech-bubble-13-icon {
+	background-position: 0 -64px;
+}
+.icon-iconmonstr-email-2-icon {
+	background-position: -32px -64px;
+}
+.icon-iconmonstr-globe-4-icon {
+	background-position: -64px -64px;
+}
+.icon-iconmonstr-home-4-icon {
+	background-position: -96px -64px;
+}
+.icon-iconmonstr-gear-icon {
+	background-position: -128px -64px;
+}
+.icon-iconmonstr-window-command-icon {
+	background-position: -160px -64px;
+}
+.icon-iconmonstr-refresh-5-icon {
+	background-position: -192px -64px;
+}
+.icon-iconmonstr-resize-4-icon {
+	background-position: -224px -64px;
+}
+.icon-iconmonstr-magnifier-3-icon {
+	background-position: -256px -64px;
+}
+.icon-iconmonstr-redo-4-icon {
+	background-position: -288px -64px;
+	width: 18px;
+}
+.icon-iconmonstr-undo-4-icon {
+	background-position: -320px -64px;
+	width: 18px;
+}
+.icon-iconmonstr-x-mark-3-icon {
+	background-position: -352px -64px;
+}
+.icon-iconmonstr-check-mark-3-icon {
+	background-position: -384px -64px;
+}
+.icon-iconmonstr-plus-4-icon {
+	background-position: 0 -96px;
+}
+.icon-iconmonstr-arrow-58-icon {
+	background-position: -32px -96px;
+}
+.icon-iconmonstr-rss-icon {
+	background-position: -64px -96px;
+}
+.icon-iconmonstr-facebook-like-icon {
+	background-position: -96px -96px;
+}
+.icon-iconmonstr-user-icon {
+	background-position: -128px -96px;
+}
+.icon-iconmonstr-user-14-icon-1 {
+	background-position: -160px -96px;
+}
+.icon-iconmonstr-phone-icon {
+	background-position: -192px -96px;
+}
+.icon-iconmonstr-email-icon {
+	background-position: -224px -96px;
+}
+.icon-iconmonstr-photo-camera-4-icon {
+	background-position: -256px -96px;
+}
+.icon-iconmonstr-check-mark-icon {
+	background-position: -288px -96px;
+}
+.icon-iconmonstr-x-mark-icon {
+	background-position: -320px -96px;
+}
+.icon-iconmonstr-video-5-icon {
+	background-position: -352px -96px;
+}
+.icon-iconmonstr-info-5-icon {
+	background-position: -384px -96px;
+}
+.icon-iconmonstr-help-2-icon {
+	background-position: 0 -128px;
+}
+.icon-iconmonstr-arrow-32-icon {
+	background-position: -32px -128px;
+}
+.icon-iconmonstr-microphone-icon {
+	background-position: -64px -128px;
+}
+.icon-iconmonstr-inbox-6-icon {
+	background-position: -96px -128px;
+}
+.icon-iconmonstr-window-layout-icon {
+	background-position: -128px -128px;
+}
+.icon-iconmonstr-compass-9-icon {
+	background-position: -160px -128px;
+}
+.icon-iconmonstr-navigation-2-icon {
+	background-position: -192px -128px;
+}
+.icon-iconmonstr-location-2-icon {
+	background-position: -224px -128px;
+}
+.icon-iconmonstr-location-3-icon {
+	background-position: -256px -128px;
+}
+.icon-iconmonstr-location-4-icon {
+	background-position: -288px -128px;
+}
+.icon-iconmonstr-location-5-icon {
+	background-position: -320px -128px;
+}
+.icon-iconmonstr-basket-2-icon {
+	background-position: -352px -128px;
+}
+.icon-iconmonstr-shopping-cart-icon {
+	background-position: -384px -128px;
+}
+.icon-iconmonstr-basket-12-icon {
+	background-position: 0 -160px;
+}
+.icon-iconmonstr-shopping-cart-3-icon {
+	background-position: -32px -160px;
+}
+.icon-iconmonstr-shopping-cart-13-icon {
+	background-position: -64px -160px;
+}
+.icon-iconmonstr-lock-icon {
+	background-position: -96px -160px;
+}
+.icon-iconmonstr-share-4-icon {
+	background-position: -128px -160px;
+}
+.icon-iconmonstr-server-4-icon {
+	background-position: -160px -160px;
+}
+.icon-iconmonstr-database-icon {
+	background-position: -192px -160px;
+}
+.icon-iconmonstr-laptop-4-icon {
+	background-position: -224px -160px;
+}
+.icon-iconmonstr-link-2-icon {
+	background-position: -256px -160px;
+}
+.icon-iconmonstr-warning-6-icon {
+	background-position: -288px -160px;
+}
+.icon-iconmonstr-dashboard-3-icon {
+	background-position: -320px -160px;
+}
+.icon-iconmonstr-favorite-3-icon {
+	background-position: -352px -160px;
+}
+.icon-iconmonstr-error-5-icon {
+	background-position: -384px -160px;
+}

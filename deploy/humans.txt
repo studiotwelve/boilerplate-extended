@@ -3,13 +3,16 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Michael Hurley -- Designer/Developer -- @MichaelH_rley
 
 # THANKS
 
-    <name>
+    Mom, Adrienne Mollette
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    jQuery, Modernizr
+    Modernizr, jQuery, Bootstrap, cssFx,
+    html5forms*[formerly: html5widgets],
+    
+    @@ToDecide: jQuery.ui, nivoSlider?

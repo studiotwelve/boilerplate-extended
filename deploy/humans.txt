@@ -13,6 +13,4 @@
 
     HTML5, CSS3
     Modernizr, jQuery, Bootstrap, cssFx,
-    html5forms*[formerly: html5widgets],
-    
-    @@ToDecide: jQuery.ui, nivoSlider?
+    html5forms*[formerly: html5widgets]

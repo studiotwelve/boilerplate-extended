@@ -16,70 +16,240 @@
 <link rel="stylesheet" href="css/custom.css"><!-- Your style sheet *add [class="cssfx"] to style like a time traveler! http://imsky.github.com/cssfx -->
 <script src="js/vendor/modernizr.js"></script>
 </head><body><!--[if lt IE 7]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
-<div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container-fluid">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </a>
-            <a class="brand" href="#">Project name</a>
-            <div class="nav-collapse collapse">
-                <ul class="nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li class="nav-header">Nav header</li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <form class="navbar-form pull-right">
-                    <input class="span2" type="text" placeholder="Email">
-                    <input class="span2" type="password" placeholder="Password">
-                    <button type="submit" class="btn">Sign in</button>
-                </form>
-            </div><!--/.nav-collapse -->
-        </div>
-    </div>
-</div>
-<div class="container-fluid">
-    <!-- Main hero unit for a primary marketing message or call to action -->
+
+<!--/* Semeantics are king but SEO is more important
+	 * We like the drupal way of template building it's fairly semantic
+	 * We love html5 and it's semantic naming conventions
+	 * We think all websites should use these features
+	 * So, what are semantic best practices?
+	 * Well, take a look...
+	 */-->
+	 
+<!--
+* Most semantic src files are structured like this:
+
+<header>
+<nav>
+<aside>*this would be like left sidebar navigation and such
+<section role="main">
+<aside>*this would be like right sidebar navigation and such
+<footer>
+
+* Thats great but there are a lot of chars for bots to chew through to get to the point
+* For seo best practices content should be first
+* Zen for drupal does something like this:
+
+<header>
+<section role="main">
+<nav>
+<aside><aside>
+<footer>
+
+* and then uses css to put everything in its place
+* thats cool but what if you wanted true content first markup...
+-->
+<div id="content" class="container-fluid">
+	<div class="row-fluid main">
+		<section class="span6 offset3" role="main">
+			<article>
+				<header>
+					<hgroup>
+						<h1 class="title">[page:title]</h1>						
+						<h2 class="subtitle">[page:subtitle]</h2>
+					</hgroup>
+				</header>
+				
+				<section class="content">
+					<p>[page:content]</p>
+				</section>
+				
+				<aside class="author">
+					<header>
+						<hgroup>
+							<h3 class="name">[author:name]</h3>							
+							<h4 class="role">[author:role]</h4>
+						</hgroup>
+					</header>
+					
+					<section class="about">
+						<p>[author:about]</p>
+					</section>
+					
+					<footer>
+						<nav class="links">
+							<ul>
+								<li><a href="//twitter.com/[author:twitter]" title="twitter" rel="nofollow">twitter</a></li>
+								<li><a href="//facebook.com/[author:facebook]" title="facebook" rel="nofollow">facebook</a></li>
+							</ul>
+						</nav>
+					</footer>
+				</aside>
+				
+				<footer>
+					<nav class="links">
+						<ul>
+							<li><a href="" title=""></a></li>
+						</ul>
+					</nav>
+				</footer>
+			</article>
+		</section>
+	</div>
+	<div class="row-fluid sidebars">
+		<aside class="span3">
+			<div class="block">
+				<header>
+					<hgroup>
+						<h3 class="title">[block:title]</h3>
+						<h4 class="subtitle">[block:subtitle]</h4>
+					</hgroup>
+				</header>
+				
+				<section class="description">
+					<p>[block:description]</p>
+				</section>
+				
+				<footer>
+					<nav class="links">
+						<ul>
+							<li><a href="" title=""></a></li>
+						</ul>
+					</nav>
+				</footer>
+			</div>
+		</aside>
+		
+		<aside class="span3 offset6">
+				<header>
+					<hgroup>
+						<h3 class="title">[block:title]</h3>
+						<h4 class="subtitle">[block:subtitle]</h4>
+					</hgroup>
+				</header>
+				
+				<section class="description">
+					<p>[block:description]</p>
+				</section>
+				
+				<footer>
+					<nav class="links">
+						<ul>
+							<li><a href="" title=""></a></li>
+						</ul>
+					</nav>
+				</footer>
+			</div>
+		</aside>
+	</div>
+</div><!-- /#content -->
+
+<div class="container-fluid">	
     <div class="hero-unit">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <h3 class="h1">Hello, world!</h3>
+        <p class="lead">This is a template for a simple marketing or informational website.</p>
+        <p>It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
         <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
     </div>
-    <!-- Example row of columns -->
+    
     <div class="row-fluid">
         <div class="span4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <h4 class="h2">Heading</h4>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
             <p><a class="btn" href="#">View details &raquo;</a></p>
         </div>
         <div class="span4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <h4 class="h2">Heading</h4>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
             <p><a class="btn" href="#">View details &raquo;</a></p>
        </div>
         <div class="span4">
-            <h2>Heading</h2>
+            <h4 class="h2">Heading</h4>
             <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
             <p><a class="btn" href="#">View details &raquo;</a></p>
         </div>
     </div>
-    <hr>
-    <footer><p>&copy; Company 2012</p></footer>
-</div><!-- /container -->
+</div>
+
+<div id="header" class="container-fluid">
+	<header class="row-fluid">
+		<div class="span4">
+			<a title="[site:title]" href="/" rel="home" id="site-logo"><img src="[site:logo]" alt="[site:slogan]"></a>
+		</div>
+		
+		<hgroup class="span8">
+			<h2 id="site-title"><a href="/" rel="home">[site:title]</a></h2>			
+			<h3 id="site-slogan">[site:slogan]</h3>
+		</hgroup>
+	</header>
+</div><!-- /#header -->
+
+<div class="container-fluid">
+	<div class="navbar navbar-inverse">
+	    <div class="navbar-inner">
+	        <div class="container-fluid">
+	            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	            </a>
+	            
+	            <!-- You could exclude #header and go back to the default bootstrap way of identifying yourself, just don't forget to delete this line
+	            <a class="brand" href="#">[site:title]</a><!-- Your name goes here -->
+	            
+	            <div class="nav-collapse collapse">
+	                <ul class="nav">
+	                    <li><a href="#about">About</a></li>
+	                    <li><a href="#contact">Contact</a></li>
+	                    
+	                    <li class="dropdown">
+	                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+	                        
+	                        <ul class="dropdown-menu">
+	                            <li><a href="#">Action</a></li>
+	                            <li><a href="#">Another action</a></li>
+	                            <li><a href="#">Something else here</a></li>
+	                            <li class="divider"></li>
+	                            <li class="nav-header">Nav header</li>
+	                            <li><a href="#">Separated link</a></li>
+	                            <li><a href="#">One more separated link</a></li>
+	                        </ul>
+	                    </li>
+	                </ul>
+	                
+	                <form class="navbar-form pull-right" name="subscribe" id="subscribe">
+	                    <input name="name" id="subscribe-name" class="span2" type="text" placeholder="Name">
+	                    <input name="email" id="subscribe-email" class="span2" type="text" placeholder="Email">
+	                    <button type="submit" class="btn">Subscribe</button>
+	                </form>
+	            </div><!--/.nav-collapse -->
+	        </div>
+	    </div>
+	</div><!-- /.navbar -->
+</div>
+
+<div id="footer" class="container-fluid">
+	<footer class="row-fluid">
+		<nav class="span8 links">
+			<ul>
+				<li><a href="//twitter.com/[site:twitter]" rel="nofollow">twitter</a></li>
+				<li><a href="//facebook.com/[site:facebook]" rel="nofollow">facebook</a></li>
+				<li><a href="#terms">terms</a></li>
+				<li><a href="#privacy">privacy</a></li>
+			</ul>
+		</nav>
+		<div class="span4">
+			<p>Copyright [date:year] <a href="[entity:url]">[entity:name]</a></p>
+			<p>Developed by: <a href="[developer:url]">[developer:name]</a></p>
+		</div>
+	</footer>
+</div><!-- /#footer -->
+
+<!--
+* if you didn't have any styles the above markup might look a bit disorganized in the browser
+* Upside down even or mixed up maybe
+* Now open main.css and see how we fix it to look right in the browser
+-->
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery.js"><\/script>')</script>
 <script src="js/vendor/bootstrap.js"></script>

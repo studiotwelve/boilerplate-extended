@@ -1,11 +1,19 @@
-div, .container-fluid, .row-fluid {
-	box-sizing: border-box;
-}
+/* Our markup is SEO awesome but it's Semantics upside-down therefore we... */
+body div{box-sizing:border-box}/* make all the element's widths behave */
 
-.pushup {
-	
-}
 
-#content {
-	
-}
+/* make some room for .pushup and strip the padding,
+ * we'll need some js help here.
+ * @margin-top:696px; (696px) is the actual height of .pushup
+ * that height can change for lots of reasons so we'll need to make it dynamic with jQuery
+ * we commented a possible no-js out in .pushup declartion you could choose that route */
+#content{margin-top:696px; position:relative; padding:0}
+
+
+#content .row-fluid{padding:0 20px}/* put the padding back */
+#content .sidebars{position:absolute; top:0} /* pull up our  sidebars */
+.pushup{position:absolute; top:0/* ; height:696px; overflow:scroll */} /* and push the top stuff back to the top */
+.no-js .pushup{height:696px; overflow:scroll}
+
+.h1,#site-title{font-size:38.5px}
+.h2,#site-slogan{font-size:31.5px}

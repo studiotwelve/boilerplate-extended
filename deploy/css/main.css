@@ -1,0 +1,13 @@
+div, .container-fluid, .row-fluid {
+	box-sizing: border-box;
+}
+
+.pushup {
+	position: relative;
+	top: 0;
+}
+
+#content {
+	position: relative;
+	top: 100%;
+}

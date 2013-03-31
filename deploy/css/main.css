@@ -3,11 +3,9 @@ div, .container-fluid, .row-fluid {
 }
 
 .pushup {
-	position: relative;
-	top: 0;
+	
 }
 
 #content {
-	position: relative;
-	top: 100%;
+	
 }

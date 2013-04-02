@@ -4,7 +4,7 @@ body div{box-sizing:border-box}/* make all the element's widths behave */
 
 /* make some room for .pushup and strip the padding,
  * we'll need some js help here.
- * @margin-top:696px; (696px) is the actual height of .pushup
+ * @margin-top:696px; (716px) is the actual height of .pushup
  * that height can change for lots of reasons so we'll need to make it dynamic with jQuery
  * we commented a possible no-js out in .pushup declartion you could choose that route */
 #content{margin-top:696px; position:relative; padding:0}
@@ -13,7 +13,33 @@ body div{box-sizing:border-box}/* make all the element's widths behave */
 #content .row-fluid{padding:0 20px}/* put the padding back */
 #content .sidebars{position:absolute; top:0} /* pull up our  sidebars */
 .pushup{position:absolute; top:0/* ; height:696px; overflow:scroll */} /* and push the top stuff back to the top */
-.no-js .pushup{height:696px; overflow:scroll}
+.no-js .pushup{height:716px; overflow:scroll}
 
 .h1,#site-title{font-size:38.5px}
 .h2,#site-slogan{font-size:31.5px}
+
+@media (min-width:800px){
+/* We think the equal width navbar makes more sense here
+ * Customize the navbar links to be fill the entire space of the .navbar */
+.navbar .navbar-inner {padding:0}
+.navbar .nav {margin:0; display:table; width:100%}
+.navbar .nav li {display:table-cell; width:1%; float:none}
+
+.navbar .nav li a {font-weight:bold; text-align:center;
+border-left:1px solid rgba(255,255,255,.75); border-right:1px solid rgba(0,0,0,.1)}
+.navbar .nav li:first-child a {border-left:0; border-radius:3px 0 0 3px}
+.navbar .nav li:last-child a {border-right:0; border-radius:0 3px 3px 0}
+}
+
+@media (max-width:799px) {
+	.navbar .navbar-inner {padding:0}
+	.navbar .nav{display: block; width: 100%}
+	.navbar .nav li {display:block; width:auto; float: none}
+	.navbar .nav li a{display:block; float: none; width: auto; text-align:left; border-bottom:solid 1px #ddd}
+	.navbar .nav li:last-child a{border:none}
+	.navbar .nav li.active a{border-bottom-left-radius:0; border-bottom-right-radius:0}
+}	
+
+@media (max-width:767px){
+#content .row-fluid{padding:0; position:relative}	
+.container-fluid{padding-right: 20px}}

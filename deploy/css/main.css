@@ -18,6 +18,8 @@ body div{box-sizing:border-box}/* make all the element's widths behave */
 .h1,#site-title{font-size:38.5px}
 .h2,#site-slogan{font-size:31.5px}
 
+.navbar .nav li.active {display:none}
+
 @media (min-width:768px){
 /* We think the equal width navbar makes more sense here
  * Customize the navbar links to be fill the entire space of the .navbar */
@@ -35,6 +37,5 @@ border-left:1px solid rgba(255,255,255,.75); border-right:1px solid rgba(0,0,0,.
 .navbar .nav li {display:block; width:auto; float:none}
 .navbar .nav li a{display:block; float:none; width:auto; text-align:left; border-bottom:solid 1px #ddd}
 .navbar .nav li:last-child a{border:none}
-.navbar .nav li.active a{border-bottom-left-radius:0; border-bottom-right-radius:0}
 #content .row-fluid{padding:0; position:relative}	
 .container-fluid{padding-right:20px}}
